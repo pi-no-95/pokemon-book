@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { POKEMONS } from 'src/models/pokemons';
+import { ChartDataSets, ChartType, RadialChartOptions } from 'chart.js';
+import { Label } from 'ng2-charts';
 
 @Component({
   selector: 'app-pokemon-detail',
@@ -19,7 +21,7 @@ export class PokemonDetailComponent implements OnInit {
       display: false
     },
   };
-  public radarChartLabels: Label[] = ['体力', '攻撃力', '防御力', 'スピード'];
+  public radarChartLabels: Label[] = ['HP', 'こうげき', 'ぼうぎょ', 'とくこう', 'とくぼう', 'すばやさ'];
 
   public radarChartData: ChartDataSets[] = [];
   public radarChartType: ChartType = 'radar';
@@ -31,11 +33,14 @@ export class PokemonDetailComponent implements OnInit {
       // +を先頭につけると数字として計算できるようになるらしい
       const id = +map.get('id');
       this.pokemon = this.pokemons[id - 1];
+      this.radarChartData.pop();
       this.radarChartData.push({
         data: [
           this.pokemon.base.HP,
           this.pokemon.base.Attack,
           this.pokemon.base.Defense,
+          this.pokemon.base.SpAttack,
+          this.pokemon.base.SpDefense,
           this.pokemon.base.Speed,
         ]
       })

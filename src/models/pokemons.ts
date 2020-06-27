@@ -15,8 +15,8 @@ export const POKEMONS = [
       "HP": 45,
       "Attack": 49,
       "Defense": 49,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "SpAttack": 65,
+      "SpDefense": 65,
       "Speed": 45
     }
   },
@@ -36,8 +36,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 62,
       "Defense": 63,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "SpAttack": 80,
+      "SpDefense": 80,
       "Speed": 60
     }
   },
@@ -57,8 +57,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 82,
       "Defense": 83,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "SpAttack": 100,
+      "SpDefense": 100,
       "Speed": 80
     }
   },
@@ -77,8 +77,8 @@ export const POKEMONS = [
       "HP": 39,
       "Attack": 52,
       "Defense": 43,
-      "Sp. Attack": 60,
-      "Sp. Defense": 50,
+      "SpAttack": 60,
+      "SpDefense": 50,
       "Speed": 65
     }
   },
@@ -97,8 +97,8 @@ export const POKEMONS = [
       "HP": 58,
       "Attack": 64,
       "Defense": 58,
-      "Sp. Attack": 80,
-      "Sp. Defense": 65,
+      "SpAttack": 80,
+      "SpDefense": 65,
       "Speed": 80
     }
   },
@@ -118,8 +118,8 @@ export const POKEMONS = [
       "HP": 78,
       "Attack": 84,
       "Defense": 78,
-      "Sp. Attack": 109,
-      "Sp. Defense": 85,
+      "SpAttack": 109,
+      "SpDefense": 85,
       "Speed": 100
     }
   },
@@ -138,8 +138,8 @@ export const POKEMONS = [
       "HP": 44,
       "Attack": 48,
       "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 64,
+      "SpAttack": 50,
+      "SpDefense": 64,
       "Speed": 43
     }
   },
@@ -158,8 +158,8 @@ export const POKEMONS = [
       "HP": 59,
       "Attack": 63,
       "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 80,
+      "SpAttack": 65,
+      "SpDefense": 80,
       "Speed": 58
     }
   },
@@ -178,8 +178,8 @@ export const POKEMONS = [
       "HP": 79,
       "Attack": 83,
       "Defense": 100,
-      "Sp. Attack": 85,
-      "Sp. Defense": 105,
+      "SpAttack": 85,
+      "SpDefense": 105,
       "Speed": 78
     }
   },
@@ -198,8 +198,8 @@ export const POKEMONS = [
       "HP": 45,
       "Attack": 30,
       "Defense": 35,
-      "Sp. Attack": 20,
-      "Sp. Defense": 20,
+      "SpAttack": 20,
+      "SpDefense": 20,
       "Speed": 45
     }
   },
@@ -218,8 +218,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 20,
       "Defense": 55,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "SpAttack": 25,
+      "SpDefense": 25,
       "Speed": 30
     }
   },
@@ -239,8 +239,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 45,
       "Defense": 50,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
+      "SpAttack": 90,
+      "SpDefense": 80,
       "Speed": 70
     }
   },
@@ -260,8 +260,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 20,
-      "Sp. Defense": 20,
+      "SpAttack": 20,
+      "SpDefense": 20,
       "Speed": 50
     }
   },
@@ -281,8 +281,8 @@ export const POKEMONS = [
       "HP": 45,
       "Attack": 25,
       "Defense": 50,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "SpAttack": 25,
+      "SpDefense": 25,
       "Speed": 35
     }
   },
@@ -302,8 +302,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 90,
       "Defense": 40,
-      "Sp. Attack": 45,
-      "Sp. Defense": 80,
+      "SpAttack": 45,
+      "SpDefense": 80,
       "Speed": 75
     }
   },
@@ -323,8 +323,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 45,
       "Defense": 40,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "SpAttack": 35,
+      "SpDefense": 35,
       "Speed": 56
     }
   },
@@ -344,8 +344,8 @@ export const POKEMONS = [
       "HP": 63,
       "Attack": 60,
       "Defense": 55,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "SpAttack": 50,
+      "SpDefense": 50,
       "Speed": 71
     }
   },
@@ -365,8 +365,8 @@ export const POKEMONS = [
       "HP": 83,
       "Attack": 80,
       "Defense": 75,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "SpAttack": 70,
+      "SpDefense": 70,
       "Speed": 101
     }
   },
@@ -385,8 +385,8 @@ export const POKEMONS = [
       "HP": 30,
       "Attack": 56,
       "Defense": 35,
-      "Sp. Attack": 25,
-      "Sp. Defense": 35,
+      "SpAttack": 25,
+      "SpDefense": 35,
       "Speed": 72
     }
   },
@@ -405,8 +405,8 @@ export const POKEMONS = [
       "HP": 55,
       "Attack": 81,
       "Defense": 60,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
+      "SpAttack": 50,
+      "SpDefense": 70,
       "Speed": 97
     }
   },
@@ -426,8 +426,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 60,
       "Defense": 30,
-      "Sp. Attack": 31,
-      "Sp. Defense": 31,
+      "SpAttack": 31,
+      "SpDefense": 31,
       "Speed": 70
     }
   },
@@ -447,8 +447,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 90,
       "Defense": 65,
-      "Sp. Attack": 61,
-      "Sp. Defense": 61,
+      "SpAttack": 61,
+      "SpDefense": 61,
       "Speed": 100
     }
   },
@@ -467,8 +467,8 @@ export const POKEMONS = [
       "HP": 35,
       "Attack": 60,
       "Defense": 44,
-      "Sp. Attack": 40,
-      "Sp. Defense": 54,
+      "SpAttack": 40,
+      "SpDefense": 54,
       "Speed": 55
     }
   },
@@ -487,8 +487,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 95,
       "Defense": 69,
-      "Sp. Attack": 65,
-      "Sp. Defense": 79,
+      "SpAttack": 65,
+      "SpDefense": 79,
       "Speed": 80
     }
   },
@@ -507,8 +507,8 @@ export const POKEMONS = [
       "HP": 35,
       "Attack": 55,
       "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "SpAttack": 50,
+      "SpDefense": 50,
       "Speed": 90
     }
   },
@@ -527,8 +527,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 90,
       "Defense": 55,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
+      "SpAttack": 90,
+      "SpDefense": 80,
       "Speed": 110
     }
   },
@@ -547,8 +547,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 75,
       "Defense": 85,
-      "Sp. Attack": 20,
-      "Sp. Defense": 30,
+      "SpAttack": 20,
+      "SpDefense": 30,
       "Speed": 40
     }
   },
@@ -567,8 +567,8 @@ export const POKEMONS = [
       "HP": 75,
       "Attack": 100,
       "Defense": 110,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "SpAttack": 45,
+      "SpDefense": 55,
       "Speed": 65
     }
   },
@@ -587,8 +587,8 @@ export const POKEMONS = [
       "HP": 55,
       "Attack": 47,
       "Defense": 52,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "SpAttack": 40,
+      "SpDefense": 40,
       "Speed": 41
     }
   },
@@ -607,8 +607,8 @@ export const POKEMONS = [
       "HP": 70,
       "Attack": 62,
       "Defense": 67,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "SpAttack": 55,
+      "SpDefense": 55,
       "Speed": 56
     }
   },
@@ -628,8 +628,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 92,
       "Defense": 87,
-      "Sp. Attack": 75,
-      "Sp. Defense": 85,
+      "SpAttack": 75,
+      "SpDefense": 85,
       "Speed": 76
     }
   },
@@ -648,8 +648,8 @@ export const POKEMONS = [
       "HP": 46,
       "Attack": 57,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "SpAttack": 40,
+      "SpDefense": 40,
       "Speed": 50
     }
   },
@@ -668,8 +668,8 @@ export const POKEMONS = [
       "HP": 61,
       "Attack": 72,
       "Defense": 57,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "SpAttack": 55,
+      "SpDefense": 55,
       "Speed": 65
     }
   },
@@ -689,8 +689,8 @@ export const POKEMONS = [
       "HP": 81,
       "Attack": 102,
       "Defense": 77,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "SpAttack": 85,
+      "SpDefense": 75,
       "Speed": 85
     }
   },
@@ -709,8 +709,8 @@ export const POKEMONS = [
       "HP": 70,
       "Attack": 45,
       "Defense": 48,
-      "Sp. Attack": 60,
-      "Sp. Defense": 65,
+      "SpAttack": 60,
+      "SpDefense": 65,
       "Speed": 35
     }
   },
@@ -729,8 +729,8 @@ export const POKEMONS = [
       "HP": 95,
       "Attack": 70,
       "Defense": 73,
-      "Sp. Attack": 95,
-      "Sp. Defense": 90,
+      "SpAttack": 95,
+      "SpDefense": 90,
       "Speed": 60
     }
   },
@@ -749,8 +749,8 @@ export const POKEMONS = [
       "HP": 38,
       "Attack": 41,
       "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 65,
+      "SpAttack": 50,
+      "SpDefense": 65,
       "Speed": 65
     }
   },
@@ -769,8 +769,8 @@ export const POKEMONS = [
       "HP": 73,
       "Attack": 76,
       "Defense": 75,
-      "Sp. Attack": 81,
-      "Sp. Defense": 100,
+      "SpAttack": 81,
+      "SpDefense": 100,
       "Speed": 100
     }
   },
@@ -790,8 +790,8 @@ export const POKEMONS = [
       "HP": 115,
       "Attack": 45,
       "Defense": 20,
-      "Sp. Attack": 45,
-      "Sp. Defense": 25,
+      "SpAttack": 45,
+      "SpDefense": 25,
       "Speed": 20
     }
   },
@@ -811,8 +811,8 @@ export const POKEMONS = [
       "HP": 140,
       "Attack": 70,
       "Defense": 45,
-      "Sp. Attack": 85,
-      "Sp. Defense": 50,
+      "SpAttack": 85,
+      "SpDefense": 50,
       "Speed": 45
     }
   },
@@ -832,8 +832,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 45,
       "Defense": 35,
-      "Sp. Attack": 30,
-      "Sp. Defense": 40,
+      "SpAttack": 30,
+      "SpDefense": 40,
       "Speed": 55
     }
   },
@@ -853,8 +853,8 @@ export const POKEMONS = [
       "HP": 75,
       "Attack": 80,
       "Defense": 70,
-      "Sp. Attack": 65,
-      "Sp. Defense": 75,
+      "SpAttack": 65,
+      "SpDefense": 75,
       "Speed": 90
     }
   },
@@ -874,8 +874,8 @@ export const POKEMONS = [
       "HP": 45,
       "Attack": 50,
       "Defense": 55,
-      "Sp. Attack": 75,
-      "Sp. Defense": 65,
+      "SpAttack": 75,
+      "SpDefense": 65,
       "Speed": 30
     }
   },
@@ -895,8 +895,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 65,
       "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "SpAttack": 85,
+      "SpDefense": 75,
       "Speed": 40
     }
   },
@@ -916,8 +916,8 @@ export const POKEMONS = [
       "HP": 75,
       "Attack": 80,
       "Defense": 85,
-      "Sp. Attack": 110,
-      "Sp. Defense": 90,
+      "SpAttack": 110,
+      "SpDefense": 90,
       "Speed": 50
     }
   },
@@ -937,8 +937,8 @@ export const POKEMONS = [
       "HP": 35,
       "Attack": 70,
       "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "SpAttack": 45,
+      "SpDefense": 55,
       "Speed": 25
     }
   },
@@ -958,8 +958,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 95,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 80,
+      "SpAttack": 60,
+      "SpDefense": 80,
       "Speed": 30
     }
   },
@@ -979,8 +979,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 55,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 55,
+      "SpAttack": 40,
+      "SpDefense": 55,
       "Speed": 45
     }
   },
@@ -1000,8 +1000,8 @@ export const POKEMONS = [
       "HP": 70,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 90,
-      "Sp. Defense": 75,
+      "SpAttack": 90,
+      "SpDefense": 75,
       "Speed": 90
     }
   },
@@ -1020,8 +1020,8 @@ export const POKEMONS = [
       "HP": 10,
       "Attack": 55,
       "Defense": 25,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
+      "SpAttack": 35,
+      "SpDefense": 45,
       "Speed": 95
     }
   },
@@ -1040,8 +1040,8 @@ export const POKEMONS = [
       "HP": 35,
       "Attack": 100,
       "Defense": 50,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
+      "SpAttack": 50,
+      "SpDefense": 70,
       "Speed": 120
     }
   },
@@ -1060,8 +1060,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 45,
       "Defense": 35,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "SpAttack": 40,
+      "SpDefense": 40,
       "Speed": 90
     }
   },
@@ -1080,8 +1080,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 70,
       "Defense": 60,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "SpAttack": 65,
+      "SpDefense": 65,
       "Speed": 115
     }
   },
@@ -1100,8 +1100,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 52,
       "Defense": 48,
-      "Sp. Attack": 65,
-      "Sp. Defense": 50,
+      "SpAttack": 65,
+      "SpDefense": 50,
       "Speed": 55
     }
   },
@@ -1120,8 +1120,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 82,
       "Defense": 78,
-      "Sp. Attack": 95,
-      "Sp. Defense": 80,
+      "SpAttack": 95,
+      "SpDefense": 80,
       "Speed": 85
     }
   },
@@ -1140,8 +1140,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 80,
       "Defense": 35,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
+      "SpAttack": 35,
+      "SpDefense": 45,
       "Speed": 70
     }
   },
@@ -1160,8 +1160,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 105,
       "Defense": 60,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "SpAttack": 60,
+      "SpDefense": 70,
       "Speed": 95
     }
   },
@@ -1180,8 +1180,8 @@ export const POKEMONS = [
       "HP": 55,
       "Attack": 70,
       "Defense": 45,
-      "Sp. Attack": 70,
-      "Sp. Defense": 50,
+      "SpAttack": 70,
+      "SpDefense": 50,
       "Speed": 60
     }
   },
@@ -1200,8 +1200,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 110,
       "Defense": 80,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
+      "SpAttack": 100,
+      "SpDefense": 80,
       "Speed": 95
     }
   },
@@ -1220,8 +1220,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 50,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "SpAttack": 40,
+      "SpDefense": 40,
       "Speed": 90
     }
   },
@@ -1240,8 +1240,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "SpAttack": 50,
+      "SpDefense": 50,
       "Speed": 90
     }
   },
@@ -1261,8 +1261,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 95,
       "Defense": 95,
-      "Sp. Attack": 70,
-      "Sp. Defense": 90,
+      "SpAttack": 70,
+      "SpDefense": 90,
       "Speed": 70
     }
   },
@@ -1281,8 +1281,8 @@ export const POKEMONS = [
       "HP": 25,
       "Attack": 20,
       "Defense": 15,
-      "Sp. Attack": 105,
-      "Sp. Defense": 55,
+      "SpAttack": 105,
+      "SpDefense": 55,
       "Speed": 90
     }
   },
@@ -1301,8 +1301,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 120,
-      "Sp. Defense": 70,
+      "SpAttack": 120,
+      "SpDefense": 70,
       "Speed": 105
     }
   },
@@ -1321,8 +1321,8 @@ export const POKEMONS = [
       "HP": 55,
       "Attack": 50,
       "Defense": 45,
-      "Sp. Attack": 135,
-      "Sp. Defense": 95,
+      "SpAttack": 135,
+      "SpDefense": 95,
       "Speed": 120
     }
   },
@@ -1341,8 +1341,8 @@ export const POKEMONS = [
       "HP": 70,
       "Attack": 80,
       "Defense": 50,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "SpAttack": 35,
+      "SpDefense": 35,
       "Speed": 35
     }
   },
@@ -1361,8 +1361,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 50,
-      "Sp. Defense": 60,
+      "SpAttack": 50,
+      "SpDefense": 60,
       "Speed": 45
     }
   },
@@ -1381,8 +1381,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 130,
       "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 85,
+      "SpAttack": 65,
+      "SpDefense": 85,
       "Speed": 55
     }
   },
@@ -1402,8 +1402,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 75,
       "Defense": 35,
-      "Sp. Attack": 70,
-      "Sp. Defense": 30,
+      "SpAttack": 70,
+      "SpDefense": 30,
       "Speed": 40
     }
   },
@@ -1423,8 +1423,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 90,
       "Defense": 50,
-      "Sp. Attack": 85,
-      "Sp. Defense": 45,
+      "SpAttack": 85,
+      "SpDefense": 45,
       "Speed": 55
     }
   },
@@ -1444,8 +1444,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 105,
       "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 70,
+      "SpAttack": 100,
+      "SpDefense": 70,
       "Speed": 70
     }
   },
@@ -1465,8 +1465,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 40,
       "Defense": 35,
-      "Sp. Attack": 50,
-      "Sp. Defense": 100,
+      "SpAttack": 50,
+      "SpDefense": 100,
       "Speed": 70
     }
   },
@@ -1486,8 +1486,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 70,
       "Defense": 65,
-      "Sp. Attack": 80,
-      "Sp. Defense": 120,
+      "SpAttack": 80,
+      "SpDefense": 120,
       "Speed": 100
     }
   },
@@ -1507,8 +1507,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 80,
       "Defense": 100,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "SpAttack": 30,
+      "SpDefense": 30,
       "Speed": 20
     }
   },
@@ -1528,8 +1528,8 @@ export const POKEMONS = [
       "HP": 55,
       "Attack": 95,
       "Defense": 115,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "SpAttack": 45,
+      "SpDefense": 45,
       "Speed": 35
     }
   },
@@ -1549,8 +1549,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 120,
       "Defense": 130,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "SpAttack": 55,
+      "SpDefense": 65,
       "Speed": 45
     }
   },
@@ -1569,8 +1569,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 85,
       "Defense": 55,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "SpAttack": 65,
+      "SpDefense": 65,
       "Speed": 90
     }
   },
@@ -1589,8 +1589,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "SpAttack": 80,
+      "SpDefense": 80,
       "Speed": 105
     }
   },
@@ -1610,8 +1610,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "SpAttack": 40,
+      "SpDefense": 40,
       "Speed": 15
     }
   },
@@ -1631,8 +1631,8 @@ export const POKEMONS = [
       "HP": 95,
       "Attack": 75,
       "Defense": 110,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
+      "SpAttack": 100,
+      "SpDefense": 80,
       "Speed": 30
     }
   },
@@ -1652,8 +1652,8 @@ export const POKEMONS = [
       "HP": 25,
       "Attack": 35,
       "Defense": 70,
-      "Sp. Attack": 95,
-      "Sp. Defense": 55,
+      "SpAttack": 95,
+      "SpDefense": 55,
       "Speed": 45
     }
   },
@@ -1673,8 +1673,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 60,
       "Defense": 95,
-      "Sp. Attack": 120,
-      "Sp. Defense": 70,
+      "SpAttack": 120,
+      "SpDefense": 70,
       "Speed": 70
     }
   },
@@ -1694,8 +1694,8 @@ export const POKEMONS = [
       "HP": 52,
       "Attack": 90,
       "Defense": 55,
-      "Sp. Attack": 58,
-      "Sp. Defense": 62,
+      "SpAttack": 58,
+      "SpDefense": 62,
       "Speed": 60
     }
   },
@@ -1715,8 +1715,8 @@ export const POKEMONS = [
       "HP": 35,
       "Attack": 85,
       "Defense": 45,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "SpAttack": 35,
+      "SpDefense": 35,
       "Speed": 75
     }
   },
@@ -1736,8 +1736,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 110,
       "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "SpAttack": 60,
+      "SpDefense": 60,
       "Speed": 110
     }
   },
@@ -1756,8 +1756,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 45,
       "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 70,
+      "SpAttack": 45,
+      "SpDefense": 70,
       "Speed": 45
     }
   },
@@ -1777,8 +1777,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 70,
       "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 95,
+      "SpAttack": 70,
+      "SpDefense": 95,
       "Speed": 70
     }
   },
@@ -1797,8 +1797,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 80,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "SpAttack": 40,
+      "SpDefense": 50,
       "Speed": 25
     }
   },
@@ -1817,8 +1817,8 @@ export const POKEMONS = [
       "HP": 105,
       "Attack": 105,
       "Defense": 75,
-      "Sp. Attack": 65,
-      "Sp. Defense": 100,
+      "SpAttack": 65,
+      "SpDefense": 100,
       "Speed": 50
     }
   },
@@ -1837,8 +1837,8 @@ export const POKEMONS = [
       "HP": 30,
       "Attack": 65,
       "Defense": 100,
-      "Sp. Attack": 45,
-      "Sp. Defense": 25,
+      "SpAttack": 45,
+      "SpDefense": 25,
       "Speed": 40
     }
   },
@@ -1858,8 +1858,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 95,
       "Defense": 180,
-      "Sp. Attack": 85,
-      "Sp. Defense": 45,
+      "SpAttack": 85,
+      "SpDefense": 45,
       "Speed": 70
     }
   },
@@ -1879,8 +1879,8 @@ export const POKEMONS = [
       "HP": 30,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 100,
-      "Sp. Defense": 35,
+      "SpAttack": 100,
+      "SpDefense": 35,
       "Speed": 80
     }
   },
@@ -1900,8 +1900,8 @@ export const POKEMONS = [
       "HP": 45,
       "Attack": 50,
       "Defense": 45,
-      "Sp. Attack": 115,
-      "Sp. Defense": 55,
+      "SpAttack": 115,
+      "SpDefense": 55,
       "Speed": 95
     }
   },
@@ -1921,8 +1921,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 130,
-      "Sp. Defense": 75,
+      "SpAttack": 130,
+      "SpDefense": 75,
       "Speed": 110
     }
   },
@@ -1942,8 +1942,8 @@ export const POKEMONS = [
       "HP": 35,
       "Attack": 45,
       "Defense": 160,
-      "Sp. Attack": 30,
-      "Sp. Defense": 45,
+      "SpAttack": 30,
+      "SpDefense": 45,
       "Speed": 70
     }
   },
@@ -1962,8 +1962,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 48,
       "Defense": 45,
-      "Sp. Attack": 43,
-      "Sp. Defense": 90,
+      "SpAttack": 43,
+      "SpDefense": 90,
       "Speed": 42
     }
   },
@@ -1982,8 +1982,8 @@ export const POKEMONS = [
       "HP": 85,
       "Attack": 73,
       "Defense": 70,
-      "Sp. Attack": 73,
-      "Sp. Defense": 115,
+      "SpAttack": 73,
+      "SpDefense": 115,
       "Speed": 67
     }
   },
@@ -2002,8 +2002,8 @@ export const POKEMONS = [
       "HP": 30,
       "Attack": 105,
       "Defense": 90,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "SpAttack": 25,
+      "SpDefense": 25,
       "Speed": 50
     }
   },
@@ -2022,8 +2022,8 @@ export const POKEMONS = [
       "HP": 55,
       "Attack": 130,
       "Defense": 115,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "SpAttack": 50,
+      "SpDefense": 50,
       "Speed": 75
     }
   },
@@ -2042,8 +2042,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 30,
       "Defense": 50,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "SpAttack": 55,
+      "SpDefense": 55,
       "Speed": 100
     }
   },
@@ -2062,8 +2062,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 50,
       "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "SpAttack": 80,
+      "SpDefense": 80,
       "Speed": 150
     }
   },
@@ -2083,8 +2083,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 40,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 45,
+      "SpAttack": 60,
+      "SpDefense": 45,
       "Speed": 40
     }
   },
@@ -2104,8 +2104,8 @@ export const POKEMONS = [
       "HP": 95,
       "Attack": 95,
       "Defense": 85,
-      "Sp. Attack": 125,
-      "Sp. Defense": 75,
+      "SpAttack": 125,
+      "SpDefense": 75,
       "Speed": 55
     }
   },
@@ -2124,8 +2124,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 50,
       "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "SpAttack": 40,
+      "SpDefense": 50,
       "Speed": 35
     }
   },
@@ -2144,8 +2144,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 80,
       "Defense": 110,
-      "Sp. Attack": 50,
-      "Sp. Defense": 80,
+      "SpAttack": 50,
+      "SpDefense": 80,
       "Speed": 45
     }
   },
@@ -2164,8 +2164,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 120,
       "Defense": 53,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
+      "SpAttack": 35,
+      "SpDefense": 110,
       "Speed": 87
     }
   },
@@ -2184,8 +2184,8 @@ export const POKEMONS = [
       "HP": 50,
       "Attack": 105,
       "Defense": 79,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
+      "SpAttack": 35,
+      "SpDefense": 110,
       "Speed": 76
     }
   },
@@ -2204,8 +2204,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 55,
       "Defense": 75,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "SpAttack": 60,
+      "SpDefense": 75,
       "Speed": 30
     }
   },
@@ -2224,8 +2224,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 65,
       "Defense": 95,
-      "Sp. Attack": 60,
-      "Sp. Defense": 45,
+      "SpAttack": 60,
+      "SpDefense": 45,
       "Speed": 35
     }
   },
@@ -2244,8 +2244,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 90,
       "Defense": 120,
-      "Sp. Attack": 85,
-      "Sp. Defense": 70,
+      "SpAttack": 85,
+      "SpDefense": 70,
       "Speed": 60
     }
   },
@@ -2265,8 +2265,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 85,
       "Defense": 95,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "SpAttack": 30,
+      "SpDefense": 30,
       "Speed": 25
     }
   },
@@ -2286,8 +2286,8 @@ export const POKEMONS = [
       "HP": 105,
       "Attack": 130,
       "Defense": 120,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "SpAttack": 45,
+      "SpDefense": 45,
       "Speed": 40
     }
   },
@@ -2306,8 +2306,8 @@ export const POKEMONS = [
       "HP": 250,
       "Attack": 5,
       "Defense": 5,
-      "Sp. Attack": 35,
-      "Sp. Defense": 105,
+      "SpAttack": 35,
+      "SpDefense": 105,
       "Speed": 50
     }
   },
@@ -2326,8 +2326,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 55,
       "Defense": 115,
-      "Sp. Attack": 100,
-      "Sp. Defense": 40,
+      "SpAttack": 100,
+      "SpDefense": 40,
       "Speed": 60
     }
   },
@@ -2346,8 +2346,8 @@ export const POKEMONS = [
       "HP": 105,
       "Attack": 95,
       "Defense": 80,
-      "Sp. Attack": 40,
-      "Sp. Defense": 80,
+      "SpAttack": 40,
+      "SpDefense": 80,
       "Speed": 90
     }
   },
@@ -2366,8 +2366,8 @@ export const POKEMONS = [
       "HP": 30,
       "Attack": 40,
       "Defense": 70,
-      "Sp. Attack": 70,
-      "Sp. Defense": 25,
+      "SpAttack": 70,
+      "SpDefense": 25,
       "Speed": 60
     }
   },
@@ -2386,8 +2386,8 @@ export const POKEMONS = [
       "HP": 55,
       "Attack": 65,
       "Defense": 95,
-      "Sp. Attack": 95,
-      "Sp. Defense": 45,
+      "SpAttack": 95,
+      "SpDefense": 45,
       "Speed": 85
     }
   },
@@ -2406,8 +2406,8 @@ export const POKEMONS = [
       "HP": 45,
       "Attack": 67,
       "Defense": 60,
-      "Sp. Attack": 35,
-      "Sp. Defense": 50,
+      "SpAttack": 35,
+      "SpDefense": 50,
       "Speed": 63
     }
   },
@@ -2426,8 +2426,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 92,
       "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 80,
+      "SpAttack": 65,
+      "SpDefense": 80,
       "Speed": 68
     }
   },
@@ -2446,8 +2446,8 @@ export const POKEMONS = [
       "HP": 30,
       "Attack": 45,
       "Defense": 55,
-      "Sp. Attack": 70,
-      "Sp. Defense": 55,
+      "SpAttack": 70,
+      "SpDefense": 55,
       "Speed": 85
     }
   },
@@ -2467,8 +2467,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 75,
       "Defense": 85,
-      "Sp. Attack": 100,
-      "Sp. Defense": 85,
+      "SpAttack": 100,
+      "SpDefense": 85,
       "Speed": 115
     }
   },
@@ -2488,8 +2488,8 @@ export const POKEMONS = [
       "HP": 40,
       "Attack": 45,
       "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 120,
+      "SpAttack": 100,
+      "SpDefense": 120,
       "Speed": 90
     }
   },
@@ -2509,8 +2509,8 @@ export const POKEMONS = [
       "HP": 70,
       "Attack": 110,
       "Defense": 80,
-      "Sp. Attack": 55,
-      "Sp. Defense": 80,
+      "SpAttack": 55,
+      "SpDefense": 80,
       "Speed": 105
     }
   },
@@ -2530,8 +2530,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 50,
       "Defense": 35,
-      "Sp. Attack": 115,
-      "Sp. Defense": 95,
+      "SpAttack": 115,
+      "SpDefense": 95,
       "Speed": 95
     }
   },
@@ -2550,8 +2550,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 83,
       "Defense": 57,
-      "Sp. Attack": 95,
-      "Sp. Defense": 85,
+      "SpAttack": 95,
+      "SpDefense": 85,
       "Speed": 105
     }
   },
@@ -2570,8 +2570,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 95,
       "Defense": 57,
-      "Sp. Attack": 100,
-      "Sp. Defense": 85,
+      "SpAttack": 100,
+      "SpDefense": 85,
       "Speed": 93
     }
   },
@@ -2590,8 +2590,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 125,
       "Defense": 100,
-      "Sp. Attack": 55,
-      "Sp. Defense": 70,
+      "SpAttack": 55,
+      "SpDefense": 70,
       "Speed": 85
     }
   },
@@ -2610,8 +2610,8 @@ export const POKEMONS = [
       "HP": 75,
       "Attack": 100,
       "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 70,
+      "SpAttack": 40,
+      "SpDefense": 70,
       "Speed": 110
     }
   },
@@ -2630,8 +2630,8 @@ export const POKEMONS = [
       "HP": 20,
       "Attack": 10,
       "Defense": 55,
-      "Sp. Attack": 15,
-      "Sp. Defense": 20,
+      "SpAttack": 15,
+      "SpDefense": 20,
       "Speed": 80
     }
   },
@@ -2651,8 +2651,8 @@ export const POKEMONS = [
       "HP": 95,
       "Attack": 125,
       "Defense": 79,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
+      "SpAttack": 60,
+      "SpDefense": 100,
       "Speed": 81
     }
   },
@@ -2672,8 +2672,8 @@ export const POKEMONS = [
       "HP": 130,
       "Attack": 85,
       "Defense": 80,
-      "Sp. Attack": 85,
-      "Sp. Defense": 95,
+      "SpAttack": 85,
+      "SpDefense": 95,
       "Speed": 60
     }
   },
@@ -2692,8 +2692,8 @@ export const POKEMONS = [
       "HP": 48,
       "Attack": 48,
       "Defense": 48,
-      "Sp. Attack": 48,
-      "Sp. Defense": 48,
+      "SpAttack": 48,
+      "SpDefense": 48,
       "Speed": 48
     }
   },
@@ -2712,8 +2712,8 @@ export const POKEMONS = [
       "HP": 55,
       "Attack": 55,
       "Defense": 50,
-      "Sp. Attack": 45,
-      "Sp. Defense": 65,
+      "SpAttack": 45,
+      "SpDefense": 65,
       "Speed": 55
     }
   },
@@ -2732,8 +2732,8 @@ export const POKEMONS = [
       "HP": 130,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
+      "SpAttack": 110,
+      "SpDefense": 95,
       "Speed": 65
     }
   },
@@ -2752,8 +2752,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
+      "SpAttack": 110,
+      "SpDefense": 95,
       "Speed": 130
     }
   },
@@ -2772,8 +2772,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 130,
       "Defense": 60,
-      "Sp. Attack": 95,
-      "Sp. Defense": 110,
+      "SpAttack": 95,
+      "SpDefense": 110,
       "Speed": 65
     }
   },
@@ -2792,8 +2792,8 @@ export const POKEMONS = [
       "HP": 65,
       "Attack": 60,
       "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "SpAttack": 85,
+      "SpDefense": 75,
       "Speed": 40
     }
   },
@@ -2813,8 +2813,8 @@ export const POKEMONS = [
       "HP": 35,
       "Attack": 40,
       "Defense": 100,
-      "Sp. Attack": 90,
-      "Sp. Defense": 55,
+      "SpAttack": 90,
+      "SpDefense": 55,
       "Speed": 35
     }
   },
@@ -2834,8 +2834,8 @@ export const POKEMONS = [
       "HP": 70,
       "Attack": 60,
       "Defense": 125,
-      "Sp. Attack": 115,
-      "Sp. Defense": 70,
+      "SpAttack": 115,
+      "SpDefense": 70,
       "Speed": 55
     }
   },
@@ -2855,8 +2855,8 @@ export const POKEMONS = [
       "HP": 30,
       "Attack": 80,
       "Defense": 90,
-      "Sp. Attack": 55,
-      "Sp. Defense": 45,
+      "SpAttack": 55,
+      "SpDefense": 45,
       "Speed": 55
     }
   },
@@ -2876,8 +2876,8 @@ export const POKEMONS = [
       "HP": 60,
       "Attack": 115,
       "Defense": 105,
-      "Sp. Attack": 65,
-      "Sp. Defense": 70,
+      "SpAttack": 65,
+      "SpDefense": 70,
       "Speed": 80
     }
   },
@@ -2897,8 +2897,8 @@ export const POKEMONS = [
       "HP": 80,
       "Attack": 105,
       "Defense": 65,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "SpAttack": 60,
+      "SpDefense": 75,
       "Speed": 130
     }
   },
@@ -2917,8 +2917,8 @@ export const POKEMONS = [
       "HP": 160,
       "Attack": 110,
       "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 110,
+      "SpAttack": 65,
+      "SpDefense": 110,
       "Speed": 30
     }
   },
@@ -2938,8 +2938,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 85,
       "Defense": 100,
-      "Sp. Attack": 95,
-      "Sp. Defense": 125,
+      "SpAttack": 95,
+      "SpDefense": 125,
       "Speed": 85
     }
   },
@@ -2959,8 +2959,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 90,
       "Defense": 85,
-      "Sp. Attack": 125,
-      "Sp. Defense": 90,
+      "SpAttack": 125,
+      "SpDefense": 90,
       "Speed": 100
     }
   },
@@ -2980,8 +2980,8 @@ export const POKEMONS = [
       "HP": 90,
       "Attack": 100,
       "Defense": 90,
-      "Sp. Attack": 125,
-      "Sp. Defense": 85,
+      "SpAttack": 125,
+      "SpDefense": 85,
       "Speed": 90
     }
   },
@@ -3000,8 +3000,8 @@ export const POKEMONS = [
       "HP": 41,
       "Attack": 64,
       "Defense": 45,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "SpAttack": 50,
+      "SpDefense": 50,
       "Speed": 50
     }
   },
@@ -3020,8 +3020,8 @@ export const POKEMONS = [
       "HP": 61,
       "Attack": 84,
       "Defense": 65,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "SpAttack": 70,
+      "SpDefense": 70,
       "Speed": 70
     }
   },
@@ -3041,8 +3041,8 @@ export const POKEMONS = [
       "HP": 91,
       "Attack": 134,
       "Defense": 95,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "SpAttack": 100,
+      "SpDefense": 100,
       "Speed": 80
     }
   },
@@ -3061,8 +3061,8 @@ export const POKEMONS = [
       "HP": 106,
       "Attack": 110,
       "Defense": 90,
-      "Sp. Attack": 154,
-      "Sp. Defense": 90,
+      "SpAttack": 154,
+      "SpDefense": 90,
       "Speed": 130
     }
   },
@@ -3081,8 +3081,8 @@ export const POKEMONS = [
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "SpAttack": 100,
+      "SpDefense": 100,
       "Speed": 100
     }
   }

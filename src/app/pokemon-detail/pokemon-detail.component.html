@@ -1,16 +1,32 @@
-<mat-card *ngIf="pokemon" class="pokemon">
-  <img src="/assets/images/{{pokemon.id | number:'3.0'}}.png" alt="">
-  <p>{{pokemon.name.japanese}}</p>
-  <p>{{pokemon.type | type}}</p>
-  <p>体力: {{pokemon.base.HP}}</p>
-  <p>攻撃力: {{pokemon.base.Attack}}</p>
-  <p>防御力: {{pokemon.base.Defense}}</p>
-  <p>スピード: {{pokemon.base.Speed}}</p>
+<div class="wrapper">
+  <mat-card *ngIf="pokemon" class="pokemon">
+    <div class="pokemon__img">
+      <img src="assets/images/{{pokemon.id | number:'3.0'}}.png" alt="">
+    </div>
+    <div>
+      <h2>{{pokemon.name.japanese}}</h2>
+      <p>タイプ: {{pokemon.type | type}}</p>
+      <p>HP: {{pokemon.base.HP}}</p>
+      <p>こうげき: {{pokemon.base.Attack}}</p>
+      <p>ぼうぎょ: {{pokemon.base.Defense}}</p>
+      <p>とくこう: {{pokemon.base.SpAttack}}</p>
+      <p>とくぼう: {{pokemon.base.SpDefense}}</p>
+      <p>すばやさ: {{pokemon.base.Speed}}</p>
 
-  <canvas baseChart
-    [datasets]="radarChartData"
-    [options]="radarChartOptions"
-    [labels]="radarChartLabels"
-    [chartType]="radarChartType">
-  </canvas>
-</mat-card>
+      <canvas baseChart [datasets]="radarChartData" [options]="radarChartOptions" [labels]="radarChartLabels"
+        [chartType]="radarChartType">
+      </canvas>
+    </div>
+  </mat-card>
+
+  <div class="pagination">
+    <div class="pagination__btn" routerLink="/{{pokemon.id - 1}}">
+      <img class="thumbnails__img" src="assets/thumbnails/{{pokemon.id - 1 | number:'3.0'}}.png" alt="">
+      <p>< まえのポケモン</p>
+    </div>
+    <div class="pagination__btn" routerLink="/{{pokemon.id + 1}}">
+      <img class="thumbnails__img" src="assets/thumbnails/{{pokemon.id + 1 | number:'3.0'}}.png" alt="">
+      <p>つぎのポケモン ></p>
+    </div>
+  </div>
+</div>

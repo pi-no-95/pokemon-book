@@ -5,9 +5,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class TypePipe implements PipeTransform {
   japanese = {
-    Grass: '草',
-    Poison: '毒',
-    Bug: '虫',
+    Grass: 'くさ',
+    Poison: 'どく',
+    Bug: 'むし',
   }
 
   transform(types: string[], ...args: unknown[]): unknown {

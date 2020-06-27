@@ -1,5 +1,48 @@
-.pokemon {
-  max-width: 400px;
-  text-align: center;
+.wrapper {
+  width: 720px;
   margin: 24px auto;
+}
+
+.pokemon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.pokemon__img {
+  flex: 1;
+}
+
+img {
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination__btn {
+  outline: none;
+  cursor: pointer;
+  p {
+    font-size: 12px;
+  }
+  &:first-of-type {
+    .thumbnails__img {
+      margin-left: auto;
+    }
+  }
+  &:last-of-type {
+    text-align: right;
+  }
+}
+
+.thumbnails__img {
+  display: block;
+  width: 70%;
+  height: 70%;
 }
