@@ -3,8 +3,8 @@
     <div class="pokemon__img">
       <img src="assets/images/{{pokemon.id | number:'3.0'}}.png" alt="">
     </div>
-    <div>
-      <h2>{{pokemon.name.japanese}}</h2>
+    <div class="pokemon__desc">
+      <h2><span>No.{{pokemon.id | number:'3.0'}}</span> {{pokemon.name.japanese}}</h2>
       <p>タイプ: {{pokemon.type | type}}</p>
       <p>HP: {{pokemon.base.HP}}</p>
       <p>こうげき: {{pokemon.base.Attack}}</p>
@@ -20,13 +20,13 @@
   </mat-card>
 
   <div class="pagination">
-    <div class="pagination__btn -prev" *ngIf="prevId != 0" routerLink="/{{prevId}}">
+    <a class="pagination__btn -prev" *ngIf="prevId != 0" routerLink="/{{prevId}}">
       <img class="thumbnails__img" src="assets/thumbnails/{{prevId | number:'3.0'}}.png" alt="">
       <p>< まえのポケモン</p>
-    </div>
-    <div class="pagination__btn -next" *ngIf="nextId != 0" routerLink="/{{nextId}}">
+    </a>
+    <a class="pagination__btn -next" *ngIf="nextId != 0" routerLink="/{{nextId}}">
       <img class="thumbnails__img" src="assets/thumbnails/{{nextId | number:'3.0'}}.png" alt="">
       <p>つぎのポケモン ></p>
-    </div>
+    </a>
   </div>
 </div>

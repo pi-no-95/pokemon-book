@@ -1,0 +1,22 @@
+<div class="search">
+  <section class="refinement">
+    <p class="refinement__label label">絞り込み: </p>
+    <ul class="refinement__list list">
+      <li class="refinement__item" *ngFor="let subtask of task.subtasks; let i = index;">
+        <mat-checkbox [color]="subtask.color" *ngIf="refinement[i]" [(ngModel)]="refinement[i]['checked']" (ngModelChange)="outputLog2()">
+          {{subtask.name}}
+        </mat-checkbox>
+      </li>
+    </ul>
+  </section>
+
+  <section class="requirement">
+    <p class="requirement__label label">条件: </p>
+    <mat-radio-group [(ngModel)]="requirement" class="requirement__list list" aria-label="Select an option">
+      <mat-radio-button [value]="0" (ngModelChange)="outputLog()">あんど</mat-radio-button>
+      <mat-radio-button [value]="1" (ngModelChange)="outputLog()">おあ</mat-radio-button>
+    </mat-radio-group>
+  </section>
+
+  <!-- <mat-icon *ngIf="isSelected" (click)="clear()">replay</mat-icon> -->
+</div>
