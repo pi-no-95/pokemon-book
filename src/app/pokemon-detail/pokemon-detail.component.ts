@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { POKEMONS } from 'src/models/pokemons';
+import { POKEMONS } from '../../models/pokemons';
 import { ChartDataSets, ChartType, RadialChartOptions } from 'chart.js';
 import { Label } from 'ng2-charts';
 
@@ -45,6 +45,14 @@ export class PokemonDetailComponent implements OnInit {
         ]
       })
     })
+  }
+
+  get prevId() {
+    return this.pokemon.id - 1;
+  }
+
+  get nextId() {
+    return this.pokemon.id == 151 ? 0 : this.pokemon.id + 1;
   }
 
 }

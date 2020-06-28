@@ -1,4 +1,5 @@
 # PokemonBooks
+Ninoさん [ポケモン図鑑を作る](https://www.youtube.com/watch?v=F5sSI6P5uJo)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 

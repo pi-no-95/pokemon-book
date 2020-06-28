@@ -22,7 +22,6 @@ img {
 .pagination {
   margin-top: 16px;
   display: flex;
-  justify-content: space-between;
 }
 
 .pagination__btn {
@@ -31,13 +30,21 @@ img {
   p {
     font-size: 12px;
   }
-  &:first-of-type {
+  &.-prev {
+    margin-right: auto;
+    margin-left: 0;
     .thumbnails__img {
       margin-left: auto;
     }
   }
-  &:last-of-type {
+  &.-next {
+    margin-left: auto;
+    margin-right: 0;
     text-align: right;
+    .thumbnails__img {
+      margin-right: auto;
+      margin-left: 0;
+    }
   }
 }
 

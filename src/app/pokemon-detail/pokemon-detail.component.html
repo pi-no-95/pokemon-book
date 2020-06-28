@@ -20,12 +20,12 @@
   </mat-card>
 
   <div class="pagination">
-    <div class="pagination__btn" routerLink="/{{pokemon.id - 1}}">
-      <img class="thumbnails__img" src="assets/thumbnails/{{pokemon.id - 1 | number:'3.0'}}.png" alt="">
+    <div class="pagination__btn -prev" *ngIf="prevId != 0" routerLink="/{{prevId}}">
+      <img class="thumbnails__img" src="assets/thumbnails/{{prevId | number:'3.0'}}.png" alt="">
       <p>< まえのポケモン</p>
     </div>
-    <div class="pagination__btn" routerLink="/{{pokemon.id + 1}}">
-      <img class="thumbnails__img" src="assets/thumbnails/{{pokemon.id + 1 | number:'3.0'}}.png" alt="">
+    <div class="pagination__btn -next" *ngIf="nextId != 0" routerLink="/{{nextId}}">
+      <img class="thumbnails__img" src="assets/thumbnails/{{nextId | number:'3.0'}}.png" alt="">
       <p>つぎのポケモン ></p>
     </div>
   </div>
