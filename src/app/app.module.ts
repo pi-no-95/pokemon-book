@@ -15,8 +15,9 @@ import {MatRadioModule} from '@angular/material/radio';
 
 import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 import { PokemonDetailComponent } from './pokemon-detail/pokemon-detail.component';
-import { TypePipe } from './pypes/type.pipe';
+import { TypePipe } from './pipes/type.pipe';
 import { PokemonSearchComponent } from './pokemon-search/pokemon-search.component';
+import { SearchPipe } from './pipes/search.pipe';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { PokemonSearchComponent } from './pokemon-search/pokemon-search.componen
     PokemonDetailComponent,
     TypePipe,
     PokemonSearchComponent,
+    SearchPipe,
   ],
   imports: [
     BrowserModule,

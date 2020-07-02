@@ -1,5 +1,7 @@
-import { POKEMONS } from './../../models/pokemons';
 import { Component, OnInit } from '@angular/core';
+
+import { POKEMONS } from './../../models/pokemons';
+import { REFINEMENTTYPE } from './../../models/refinement-type';
 
 @Component({
   selector: 'app-pokemon-list',
@@ -9,10 +11,11 @@ import { Component, OnInit } from '@angular/core';
 export class PokemonListComponent implements OnInit {
 
   pokemons = POKEMONS;
+  refinementType = REFINEMENTTYPE;
 
-    constructor() { }
+  constructor() { }
 
-ngOnInit(): void {
-}
+  ngOnInit(): void {
+  }
 
 }

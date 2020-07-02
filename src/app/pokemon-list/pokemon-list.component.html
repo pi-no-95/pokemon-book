@@ -1,8 +1,10 @@
 <app-pokemon-search></app-pokemon-search>
 
-<div class="grid">
-  <mat-card *ngFor="let pokemon of pokemons" routerLink="/{{pokemon.id}}">
-    <img src="assets/thumbnails/{{pokemon.id | number: '3.0'}}.png" alt="">
-    <p>{{ pokemon.name.japanese }}</p>
-  </mat-card>
-</div>
+<ul class="grid">
+  <li *ngFor="let pokemon of pokemons | search; let i = index" routerLink="/{{pokemon.id}}">
+    <mat-card>
+      <img src="assets/thumbnails/{{pokemon.id | number: '3.0'}}.png" alt="">
+      <p>{{ pokemon.name.japanese }}</p>
+    </mat-card>
+  </li>
+</ul>

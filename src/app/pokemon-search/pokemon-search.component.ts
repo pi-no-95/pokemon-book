@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ThemePalette } from '@angular/material/core';
 
-import { TypePipe } from '../pypes/type.pipe';
+import { TypePipe } from '../pipes/type.pipe';
+import { REFINEMENTTYPE } from '../../models/refinement-type';
 
 export interface Task {
   name: string;
@@ -20,27 +21,8 @@ export class PokemonSearchComponent implements OnInit {
 
   isSelected: boolean = false;
   requirement: number = 0;
-  refinement: {}[] = [
-    {name: "Normal", checked: false},
-    {name: "Fire", checked: false},
-    {name: "Water", checked: false},
-    {name: "Grass", checked: false},
-    {name: "Electric", checked: false},
-    {name: "Ice", checked: false},
-    {name: "Fighting", checked: false},
-    {name: "Poison", checked: false},
-    {name: "Ground", checked: false},
-    {name: "Psychic", checked: false},
-    {name: "Flying", checked: false},
-    {name: "Bug", checked: false},
-    {name: "Rock", checked: false},
-    {name: "Ghost", checked: false},
-    {name: "Dragon", checked: false},
-    {name: "Dark", checked: false},
-    {name: "Steel", checked: false},
-    {name: "Fairy", checked: false},
-  ];
   types = TypePipe;
+  refinementType = REFINEMENTTYPE;
 
   constructor() { }
 
@@ -103,7 +85,7 @@ export class PokemonSearchComponent implements OnInit {
 
   outputLog2() {
     const result = [];
-    for (let item of this.refinement) {
+    for (let item of this.refinementType) {
       if (item['checked']) {
         result.push(item['name']);
       }

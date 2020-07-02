@@ -11,7 +11,10 @@
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
 }
 
-mat-card {
+ul {
+  list-style: none;
+}
+li {
   text-align: center;
   cursor: pointer;
   outline: none;
