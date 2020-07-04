@@ -8,18 +8,18 @@ import { POKEMONS } from '../../models/pokemons';
 })
 export class SearchPipe implements PipeTransform {
   refinementType = REFINEMENTTYPE;
-  displayPokemons: [];
+  displayPokemons: string[] = [];
 
-  transform(pokemons: []): [] {
+  transform(pokemons: []): {}[] {
     for (let pokemon of pokemons) {
-      for (let [type, i] of this.refinementType.entries()) {
-        console.log(pokemon['type'][0]);
-        console.log(type['name']);
+      for (let [i, type] of this.refinementType.entries()) {
+        // console.log(pokemon['type'][0]);
+        // console.log(type['name']);
         if (pokemon['type'][0] === type['name']) {
-          this.displayPokemons.push(pokemons[i]);
+          this.displayPokemons.push(pokemon);
         }
       }
     }
-    return pokemons;
+    return this.displayPokemons;
   }
 }

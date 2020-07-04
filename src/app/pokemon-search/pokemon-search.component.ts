@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ThemePalette } from '@angular/material/core';
+
+import { PokemonListComponent } from './../pokemon-list/pokemon-list.component'
 
 import { TypePipe } from '../pipes/type.pipe';
 import { REFINEMENTTYPE } from '../../models/refinement-type';
@@ -18,9 +20,10 @@ export interface Task {
 })
 
 export class PokemonSearchComponent implements OnInit {
+  @Output() action = new EventEmitter<MouseEvent>();
 
   isSelected: boolean = false;
-  requirement: number = 0;
+  requirement: number = 1;
   types = TypePipe;
   refinementType = REFINEMENTTYPE;
 
@@ -54,43 +57,9 @@ export class PokemonSearchComponent implements OnInit {
     ]
   };
 
-  allComplete: boolean = false;
-
-  setSelected() {
-    this.isSelected = true;
-  }
-
-  someComplete(): boolean {
-    if (this.task.subtasks == null) {
-      return false;
-    }
-    return this.task.subtasks.filter(t => t.completed).length > 0 && !this.allComplete;
-  }
-
-  setAll(completed: boolean) {
-    this.allComplete = completed;
-    if (this.task.subtasks == null) {
-      return;
-    }
-    this.task.subtasks.forEach(t => t.completed = completed);
-  }
-
-  clear() {
-    this.isSelected = false;
-  }
-
-  outputLog() {
-    console.log(this.requirement);
-  }
-
-  outputLog2() {
-    const result = [];
-    for (let item of this.refinementType) {
-      if (item['checked']) {
-        result.push(item['name']);
-      }
-    }
-    console.log(result);
+  filterList(event): void {
+    console.log('pokemon-searchのfilterList()だよ');
+    this.action.emit(event);
   }
 
 }
