@@ -12,7 +12,7 @@
 
   <section class="requirement">
     <p class="requirement__label label">条件: </p>
-    <mat-radio-group [(ngModel)]="requirement" class="requirement__list list" aria-label="Select an option">
+    <mat-radio-group [(ngModel)]="requirement" class="requirement__list list" aria-label="Select an option" (ngModelChange)="filterList($event)">
       <mat-radio-button [value]="0">あんど</mat-radio-button>
       <mat-radio-button [value]="1">おあ</mat-radio-button>
     </mat-radio-group>

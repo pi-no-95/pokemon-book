@@ -1,9 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ThemePalette } from '@angular/material/core';
 
-import { PokemonListComponent } from './../pokemon-list/pokemon-list.component'
-
-import { TypePipe } from '../pipes/type.pipe';
 import { REFINEMENTTYPE } from '../../models/refinement-type';
 
 export interface Task {
@@ -23,13 +20,15 @@ export class PokemonSearchComponent implements OnInit {
   @Output() action = new EventEmitter<MouseEvent>();
 
   isSelected: boolean = false;
-  requirement: number = 1;
-  types = TypePipe;
+  requirement: number = 0;
   refinementType = REFINEMENTTYPE;
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log('searchだよ');
+    
+
   }
   task: Task = {
     name: 'Type',
@@ -58,7 +57,6 @@ export class PokemonSearchComponent implements OnInit {
   };
 
   filterList(event): void {
-    console.log('pokemon-searchのfilterList()だよ');
     this.action.emit(event);
   }
 
